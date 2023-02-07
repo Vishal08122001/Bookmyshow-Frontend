@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import '../styles/App.css';
-import Navbar from "./navbar";
+import Navbar from "./components/navbar";
 import { v4 as uuid } from "uuid";
 
 
