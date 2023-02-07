@@ -6,7 +6,7 @@
   "scripts": {
     "test": "cypress run  --headless --reporter mochawesome",
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "webpack --mode production"
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
