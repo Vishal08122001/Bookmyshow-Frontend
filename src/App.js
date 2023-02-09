@@ -117,7 +117,7 @@ const App = () => {
       return
     }
     if (Object.values(seats).filter(value => value).length === 0) {
-      if (!window.confirm("Please select a Seats")) return;
+      if (!window.confirm("Please select a Seat")) return;
       return;
     }
 
